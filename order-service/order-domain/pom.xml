@@ -12,7 +12,14 @@
 
     <artifactId>order-domain</artifactId>
 
+    <packaging>pom</packaging>
+
     <properties>
     </properties>
+
+    <modules>
+        <module>order-application-service</module>
+        <module>order-domain-core</module>
+    </modules>
 
 </project>
